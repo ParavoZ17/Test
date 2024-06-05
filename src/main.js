@@ -29,9 +29,11 @@ e.preventDefault();
     item.appendChild(link);
     return item;
   });
-  
+  gallery.innerHTML='';
   gallery.append(...galleryItems);
   
 });
 });
+
+
 
