@@ -13,7 +13,6 @@ function getImages (text) {
     return fetch (makeUrl(text)).then(res=>res.json());
 }   
 
-
 export default {
     getImages,
 };
